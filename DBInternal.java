@@ -14,7 +14,7 @@ public class DBInternal {
     
     
     
-    public void DBInternal(String FirstName, String LastName, String Gender,  int Age, String Role, boolean hasJob) throws IOException {
+    public DBInternal(String FirstName, String LastName, String Gender,  int Age, String Role, boolean hasJob) throws IOException {
         File CharactersDB = new File("/Users/LuiggiFernandez/Desktop/Progs/Luiggi_Money/txtDataBase/Characters.txt");
         try (FileReader FileReaderCharactersDB = new FileReader(CharactersDB); BufferedReader BufferedReaderChacractersDB = new BufferedReader(FileReaderCharactersDB)) {
             try (FileWriter FileWriterCharactersDB = new FileWriter(CharactersDB, true); BufferedWriter BufferedWriterCharactersDB = new BufferedWriter(FileWriterCharactersDB)) {

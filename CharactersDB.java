@@ -21,8 +21,7 @@ public class CharactersDB {
     
     public static void main(String[] args) throws IOException {
         for (int i = 0; i < 100; i++) {
-            DBInternal Method = new  DBInternal();
-            Method.DBInternal(FirstName(), LastName(), Gender(), Age(), Role(), hasJob());
+            DBInternal Characters = new  DBInternal(FirstName(), LastName(), Gender(), Age(), Role(), hasJob());
         }
     }    
     
